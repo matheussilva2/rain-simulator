@@ -1,0 +1,21 @@
+{
+  "name": "rain-canvas",
+  "version": "1.0.0",
+  "description": "Rain simulator using canvas html element",
+  "main": "index.js",
+  "author": "Matheus Silva",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
+  }
+}
